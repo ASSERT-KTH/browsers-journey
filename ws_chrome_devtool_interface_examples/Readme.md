@@ -5,6 +5,7 @@
 
 0. Choose the debugging port: i.e. 9222
 1. Open your browser with ```chrome --user-data-dir=<temporary_path>  --remote-debugging-port=9222```
+    **Note** If you dont have a proper chrome link, just create a new alias appointing it ```export chrome=google_chrome```
 3. Execute query to http://localhost:9222/json
 4. The resulting json has this format:
     ```json
