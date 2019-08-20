@@ -1,0 +1,13 @@
+.DS_Store
+
+cookies
+node_modules
+
+profiling
+html_demo
+temp
+
+log.txt
+group.json
+
+
