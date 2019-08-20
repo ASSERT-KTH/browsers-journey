@@ -4,9 +4,9 @@
 ## Basic workflow
 
 0. Choose the debugging port: i.e. 9222
-1. Open your browser with --remote-debugging-port=9222
+1. Open your browser with ```chrome --user-data-dir=<temporary_path>  --remote-debugging-port=9222```
 3. Execute query to http://localhost:9222/json
-4. The resulting json is something like this:
+4. The resulting json has this format:
     ```json
     [ {
     "description": "",
@@ -105,8 +105,8 @@ Result
         "result":
         {
             "type":"number",
-            "value":2,
-            "description":"2"
+            "value":3,
+            "description":"3"
         }
     }
 }
