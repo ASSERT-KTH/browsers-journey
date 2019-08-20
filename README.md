@@ -1,3 +1,5 @@
+Contacts: Javier Cabrera Arteaga <javierca@kth.se>, Benoit Baudry <baudry@kth.se>
+
 # A journey in web browsers
 
 Here are some resources used to follow a brief journey in web browsers
