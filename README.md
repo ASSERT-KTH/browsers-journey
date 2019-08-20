@@ -1,6 +1,6 @@
 # A journey in web browsers
 
-Below are links to the resources used to follow a brief journey in web browsers
+Here are some resources used to follow a brief journey in web browsers
 
 [ARPANET](https://en.wikipedia.org/wiki/ARPANET)
 
@@ -21,3 +21,7 @@ Below are links to the resources used to follow a brief journey in web browsers
 [Chrome dev tools](https://chromedevtools.github.io/devtools-protocol/tot/DOM)
 
 [The L3-37 web browser](https://github.com/Jacarte/L3-37-Browser/releases)
+
+# Interested in another software technology hackathon?
+
+Consider attending the [first continuous integration art hackathon](https://castor-software-days-2019.github.io/ci_art_hackathon), on October 14, in [KTH Reaktohallen](https://www.r1.kth.se/)
