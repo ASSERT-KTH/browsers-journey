@@ -5,7 +5,7 @@
 
 0. Choose the debugging port: i.e. 9222
 1. Open your browser with ```chrome --user-data-dir=<temporary_path>  --remote-debugging-port=9222```
-    **Note** If you dont have a proper chrome link, just create a new alias appointing it ```export chrome=google_chrome```
+    **Note** If you dont have a proper chrome bin link, just create a new alias appointing it ```export chrome=google_chrome```
 3. Execute query to http://localhost:9222/json
 4. The resulting json has this format:
     ```json
@@ -19,7 +19,7 @@
     "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/926A781407E057C7AE6A2C6F1E61B371"
     } ]
     ```
-    Every tab in the browser session will be represented in this json object as an array entry. The properties of each entry are: page description, id, title of the page, url of the page and the websocket address to access the debugging interface.
+    Every tab in the browser session will be represented in this json object as an array entry. The properties inside each entry are: page description, id, title of the page, url of the page and the websocket address to access the debugging interface.
 5. Then, open a websocket channel targeting the tab **webSocketDebuggerUrl**
 6. Start to talking to chrome debugging interface like Runtime.enable method call <https://chromedevtools.github.io/devtools-protocol/v8/Runtime> at open channel event.
     - [Runtime channel](https://chromedevtools.github.io/devtools-protocol/tot/Runtime) 
